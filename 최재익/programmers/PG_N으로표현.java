@@ -8,7 +8,7 @@ class PG_N으로표현 {
         for(int i=0; i<=8; i++){
             list.add(new HashSet<Integer>());
         }
-        list.get(1).add(N);
+        list.get(1).add(N); 
         if(N==number)return 1;
 
         for(int i=2; i<=8; i++){
